@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#16213e"/>
+      <stop offset="50%"  stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <clipPath id="fframe"><rect width="1000" height="120"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes fdrift { from { transform: translateX(-500px); } to { transform: translateX(0); } }
+    .fw { animation: fdrift 18s linear infinite; }
+  </style>
+
+  <g clip-path="url(#fframe)">
+    <rect y="34" width="1000" height="86" fill="url(#fbg)"/>
+    <g class="fw">
+      <path fill="#16213e"
+        d="M0,40 c125,-24 375,24 500,0 c125,-24 375,24 500,0 c125,-24 375,24 500,0 c125,-24 375,24 500,0 L2000,120 L0,120 Z"/>
+      <path fill="#00e5ff" opacity="0.10"
+        d="M0,52 c125,20 375,-20 500,0 c125,20 375,-20 500,0 c125,20 375,-20 500,0 c125,20 375,-20 500,0 L2000,120 L0,120 Z"/>
+    </g>
+  </g>
+</svg>
